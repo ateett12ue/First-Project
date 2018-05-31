@@ -1,0 +1,506 @@
+<div class="clearfix hidden-md hidden-lg"></div>
+
+col-sm-pull-6
+col-sm-push-6
+
+<a href="" class="btn well">button</a>
+ class="btn well btn-primary
+btn-success btn-info btn-warning btn-danger  btn-link
+<a href="" class="btn well btn-warning btn-lg btn-block">button</a>
+<button type="button" class="btn btn-info"></button>
+
+
+https://getbootstrap.com/docs/3.3/components/---glyphicon glyphicon-qrcode
+
+
+
+<!--form to input output responses-->
+<form action="">
+            <div class="form-group has-warning has-feedback">
+              <label for="element-1">This is the text of the label</label>
+              <input type="text" id="element-1" class="form-control">
+              <span class="glyphicon glyphicon-euro form-control-feedback"></span>
+            </div>
+            <div class="form-group has-error has-feedback">
+              <label for="element-3">This is the text of the label</label>
+              <input type="text" id="element-3" class="form-control">
+            </div>
+            <p class="help-block"> enter </p>
+          </form>
+
+          <hr>
+
+           <form action="" class="form-inline">
+            <div class="form-group">
+              <label for="element-2" class="sr-only">This is the text of the label</label>
+              <input type="text" id="element-2" class="form-control input-lg" placeholder="enter email">
+            </div>
+            <p class="help-block"> enter </p>
+            <div class="checkbox">
+              <label for=""><input type="checkbox" name="">Remember me
+              </label>
+            </div>
+            <button type="button" class="btn btn-primary">sign in</button>
+          </form>
+
+
+
+
+
+
+<!--responsive tables option from bootstrap-->
+https://getbootstrap.com/docs/3.3/css/#tables
+<div class="container">
+          <div class="well">
+              <table class="table table-striped">
+                <tr>
+                  <td><b>firt name</b></td>
+                  <td><b>last name</b></td>
+                  <td><b>age</b></td>
+                </tr>
+                <tr>
+                  <td><b>ateet</b></td>
+                  <td><b>tiwari</b></td>
+                  <td><b>20</b></td>
+                </tr>
+
+              </table>            
+          </div>
+
+
+
+
+
+
+
+<!--dropdown menu-->
+<div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+              hello<span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li class="dropdown-header">hii</li>
+              <li class="disabled"><a href="">first item</a></li>
+              <li><a href="">first item</a></li>
+              <li class="divider"></li>
+              <li><a href="">first item</a></li>
+              <li><a href="">first item</a></li>
+            </ul>
+            
+          </div>
+
+
+
+
+
+
+
+
+<!-- navegation bar-->
+<ul class="nav nav-tabs"><!--nav- justified  nav-pills  nav-stacked-->
+            <li class="active"><a href="#Home" data-toggle="tab">home</a></li>
+            <li><a href="#about" data-toggle="tab">home</a></li>
+            <li><a href="#videos" data-toggle="tab">home</a></li>
+          </ul>
+
+          <div class="tab-content">
+            <div class="tab-pane fade in  active" id="Home">
+              <p>First para Hi there</p>
+            </div>
+            <div class="tab-pane" id="about">
+              <p>sdfghjkl</p>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--expandable navigation bar-->
+ <header>
+      <div class="navbar navbar-default navbar-fixed-top navbar-inverse">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="" class="navbar-brand">ateet</a>
+          </div>
+          <div class="collapse navbar-collapse" id="example">
+            <ul class="nav navbar-nav">
+              <li><a href="">Link1</a></li>
+              <li class="active"><a href="">Link2</a></li>
+            </ul>
+
+            <a href="" class="btn btn-primary navbar-btn">butt</a>
+
+            <form action="" class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="search this out">
+              </div>
+              <button type="submit" class="btn btn-primary">submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+        <div class="jumbotron"> 
+          <div class="container">
+            <h1>Hello World</h1>
+            <h3>Navbar in Bootstrap</h3>
+          </div>
+        </div>
+    </header>    
+
+
+
+
+
+
+
+
+
+<!--olong list tags-->
+ <div class="container">
+      <ul class="list-group">
+        <li class="list-group-item list-group-item-success active">tisiscont<span class="badge">1</span></li>
+        <li class="list-group-item">tisiscont<span class="badge">2</span></li>
+        <li class="list-group-item">tisiscont<span class="badge">3</span></li>
+      </ul>
+      <br>
+      <div class="list-group">
+        <a href="" class="list-group-item">
+          <h1 class="list-group-item-heading">afasdasdasda</h1>
+          <p class="list-group-item-text">asdasdasdasdsasd</p>
+        </a>
+        <a href="" class="list-group-item">2</a>
+        <a href="" class="list-group-item">3</a>
+      </div>
+    </div>   
+
+
+
+
+
+
+
+
+
+
+<!--panel-->
+ <div class="container">
+     <div class="panel panel-default panel-danger">
+      <div class="panel-heading">
+        <h2 class="panel-title">This is heading</h2>
+        <h3 class="panel-title">hello</h3>>
+      </div>
+      <div class="panel-body">
+        this is the boy
+      </div>
+      <div class="panel-footer">
+        this is hello 
+      </div>
+       
+     </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--popup dialog box-->
+ <div class="container">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">Button</button>
+        <div class="modal fade" id="modal1">
+          <div class="modal-dialoge modal-xs">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">this is heading</h3>
+              </div>
+              <div class="modal-body ">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </div>
+
+              <div class="modal-footer">
+                <a href="" class="btn btn-default" data-dismiss="modal">close</a>
+                <a href="" class="btn btn-primary">download</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--collable panel-->
+ <div class="container">
+       <div class="panel-group" id="accordion"> 
+         <div class="panel panel-info">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a href="#collpaseone" data-toggle="collapse" data-parent="accordion">Collapsible panel 1</a>
+            </h4>
+          </div>
+           <div id="collpaseone" class="panel-collapse collapse in">
+              <div class="panel-body">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </div>            
+           </div>
+         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--image slider-->
+ <div class="container">
+          <div class="carousel slide" data-ride="carousel" id="carousel-ex">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-ex" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-ex" data-slide-to="1" ></li>
+              <li data-target="#carousel-ex" data-slide-to="2" ></li>
+            </ol>
+
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="1.jpg" alt="image" />
+                <div class="carousel-caption">
+                  <h2> this is heading for 1st</h2>
+                </div>
+              </div>
+
+
+              <div class="item">
+                <img src="2.png" alt="image" />
+                <div class="carousel-caption">
+                  <h2> this is heading for 2nd</h2>
+                </div>
+              </div>
+
+
+            
+              <div class="item ">
+                <img src="3.jpg" alt="image" />
+                <div class="carousel-caption">
+                  <h2> this is heading for 3rd</h2>
+                </div>
+              </div>
+
+              <a href="#carousel-ex" class="left carousel-control" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+
+              <a href="#carousel-ex" class="right carousel-control" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+            </div>
+          </div>          
+        </div>
+
+
+
+
+
+
+
+<!--directory type navigation panel-->
+<div class="container">
+         <ol class="breadcrumb">
+           <li><a href="">home</a></li>
+           <li><a href="">about</a></li>/
+           <li class="active">video</a></li>/
+         </ol>
+       </div>
+        
+
+
+
+
+
+<!--navigation tags to navigate to pages-->
+
+<div class="container">
+         <ul class="pagination">
+           <li><a href="">&laquo;</a></li>
+           <li><a href="">1</a></li>
+           <li><a href="">2</a></li>
+           <li><a href="">3</a></li>
+           <li><a href="">4</a></li>
+           <li><a href="">&raquo;</a></li>
+         </ul>
+
+         <hr>
+         <ul class="pager">
+           <li><a href="">previous one</a></li>
+           <li><a href="">next one</a></li>
+         </ul>
+
+
+         <hr>
+         <ul class="pager">
+           <li><a href="">&larr;previous one</a></li>
+           <li><a href="">next one&rarr;</a></li>
+         </ul>
+
+
+       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--put anything into label-->
+
+ <div class="container">
+         <h1>hello<span class="label label-default">ateet</span></h1>
+       </div>
+
+
+
+
+<!--a section is built, usaually used for headers-->
+
+<div class="jumbotron">
+        <div class="container">
+          <h2>Hello World</h2>
+          <h4>jumbotron in bootstrap</h4>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+<!--images as thumbnails in website as image gallary-->
+
+
+ <div class="container"> 
+            <div class="row">
+              <div class="col-sm-6 col-md-3">
+                <div class="thumbnail">
+                  <img src="1.jpg" alt="image">
+                  <div class="caption">
+                    <h3>desktop label</h3>
+                    <p>this is my desktop</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Button</a><a href="#" class="btn btn-default" role="button">Button</a></p>
+                  </div>
+                </div>
+              </div>
+             
+              <div class="col-sm-6 col-md-3">
+                <a href="" class="thumbnail">
+                  <img src="2.png" alt="image 2">
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+<!--how to put bootstrap-->
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>Bootstrap</title>
+    <meta name="description" content="Hello Ateet">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> 
+    <style type="text/css">
+      .grey{
+        background-color: #000;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+
+    </header>
+
+       
+
+
+
+
+
+    <!-- Latest compiled and minified JavaS
+cript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>  
+</html>
